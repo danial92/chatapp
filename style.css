@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/Background.2e16d0ba.fill-1422x800.jpg);
+    font-family: 'Baloo 2', cursive;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.container {
+    background: white;
+    width: 50%;
+    height: 70vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow-y: auto;
+}
+
+.other {
+    float: left;
+    clear: both;
+    background-color: rgb(125, 228, 125);
+}
+
+.me {
+    float: right;
+    clear: both;
+    background-color: cornflowerblue;
+}
+
+.message {
+    margin: 17px 12px;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+#inputMessage {
+    height: 22px;
+    width: 45vw;
+    border: 0px;
+    padding: 5px;
+    background-color: rgb(230, 220, 220);
+    border-radius: 10px;
+}
+
+#btn {
+    padding: 8px 10px;
+    border: 0px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn:hover {
+    border: 1px solid black;
+}

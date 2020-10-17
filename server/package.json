@@ -1,0 +1,16 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "We are making a chatapp",
+  "main": "Client.js",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "author": "Danial",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {}
+}
